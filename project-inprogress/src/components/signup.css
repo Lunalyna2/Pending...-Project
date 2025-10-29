@@ -117,15 +117,15 @@
 
 
 .signup-form .input-error {
-  border: 2px solid #ff4444 !important; /* Bright red border */
-  background-color: #ffe0e0 !important; /* Light red background */
-  padding: 18px 15px; /* Adjust padding slightly to accommodate border without breaking layout */
+  border: 2px solid #ff4444 !important; 
+  background-color: #ffe0e0 !important; 
+  padding: 18px 15px; 
 }
 
 .validation-error {
-  color: #cc0000; /* Darker red text */
+  color: #cc0000; 
   font-size: 0.9em;
-  margin-top: -15px; /* Pull it closer to the input */
+  margin-top: -15px; 
   margin-bottom: 20px;
   padding-left: 5px;
 }

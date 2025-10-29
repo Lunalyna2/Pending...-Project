@@ -23,10 +23,6 @@ app.post('/api/signup', (req, res) => {
         return res.status(400).json({ message: 'All fields are required.' });
     }
 
-    // 2. **Database Logic**: (This is where you would connect to a database like MongoDB or PostgreSQL)
-    // For this example, we will just simulate a success response.
-    
-    // Simulate successful user creation
     const newUser = { id: Date.now(), username, email };
 
     // Send a success response back to the React frontend
