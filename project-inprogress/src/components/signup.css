@@ -1,0 +1,131 @@
+.signup-container {
+  display: flex;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  max-width: 1000px; 
+  margin: 0 auto;
+}
+
+.left-panel {
+  flex: 1;
+  background-color: #1E293B;
+  color: #F9FAFB;
+  padding: 40px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.left-panel h1 {
+  font-size: 2.5em;
+  font-weight: 500;
+  margin-top: 50px;
+}
+
+.left-panel p {
+  font-size: 1.1em;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.login-prompt {
+  background-color: #F9FAFB;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.login-prompt p {
+  color: #1E293B;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.login-button {
+  width: 100%;
+  padding: 15px;
+  background-color: #e0e0e0; /* Light Gray button */
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.login-button:hover {
+  background-color: #d0d0d0;
+}
+
+.right-panel {
+  flex: 1.5;
+  padding: 40px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.right-panel h2 {
+  font-size: 1.8em;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.signup-form input {
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border: none;
+  background-color: #e0e0e0; 
+  border-radius: 50px;
+  font-size: .9em;
+}
+
+.get-started-button {
+  width: 100%;
+  padding: 10px 0px;
+  margin-bottom: 100px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  font-size: 1.1em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.get-started-button:hover {
+  background-color: #333;
+}
+
+.message {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.message.success {
+  color: green;
+  background-color: #e6ffe6;
+}
+
+.message.error {
+  color: red;
+  background-color: #ffe6e6;
+}
+
+
+.signup-form .input-error {
+  border: 2px solid #ff4444 !important; /* Bright red border */
+  background-color: #ffe0e0 !important; /* Light red background */
+  padding: 18px 15px; /* Adjust padding slightly to accommodate border without breaking layout */
+}
+
+.validation-error {
+  color: #cc0000; /* Darker red text */
+  font-size: 0.9em;
+  margin-top: -15px; /* Pull it closer to the input */
+  margin-bottom: 20px;
+  padding-left: 5px;
+}
